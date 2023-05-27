@@ -10,12 +10,12 @@ function Navbar({title}) {
           <FaGithub className='inline pr-2 text-3xl'/>
           <Link to='/' className='text-lg font-bold align-middle'>{title}</Link>
         </div>
-        <div classname='flex-1 px-2 mx-2'>
+        <div className='flex-1 px-2 mx-2'>
           <div className='flex justify'>
             <Link to='/' className='btn btn-ghost btn-sm rounded-btn'>Home</Link>
           </div>
         </div>
-        <div classname='flex-1 px-2 mx-2'>
+        <div className='flex-1 px-2 mx-2'>
           <div className='flex justify'>
             <Link to='/about' className='btn btn-ghost btn-sm rounded-btn'>About</Link>
           </div>
