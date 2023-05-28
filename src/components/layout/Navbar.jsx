@@ -21,7 +21,6 @@ function Navbar({title}) {
           </div>
         </div>
       </div>
-      Navbar
     </nav>
   )
 }
