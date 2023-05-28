@@ -26,7 +26,7 @@ export const GithubProvider = ({children}) => {
             }
         } )
 
-        const items = await response.json()
+        const {items} = await response.json()
         
         dispatch({
             type: 'GET_USERS',
